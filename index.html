@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prahlad Puspa Regmi | Computer Science Senior | Aspiring Data & Computer Science Senior | Aspiring Data & Software Engineer </title>
-    <meta name="description" content="Computer Science student specializing in Data Analytics and Software Engineering">
+    <title>Prahlad Puspa Regmi | Computer Science Student | Aspiring Data & Software Engineer</title>
+    <meta name="description" content="Computer Science student at Youngstown State University building data-driven software and analytics projects with Python, SQL, Excel, and C++.">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -85,12 +85,12 @@
             50% { opacity: 0; }
         }
 
-        .skill-bar {
-            transition: width 1.5s ease-out;
-        }
-
         .project-card:hover .project-overlay {
             opacity: 1;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
         }
 
         .nav-link::after {
@@ -123,6 +123,14 @@
             color: #10B981;
             margin-right: 8px;
         }
+
+        .skill-badge {
+            transition: all 0.3s ease;
+        }
+        .skill-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
     </style>
 </head>
 <body class="font-sans bg-gray-50 dark:bg-darker text-gray-900 dark:text-gray-100 transition-colors duration-300 overflow-x-hidden">
@@ -141,6 +149,7 @@
                         <a href="#about" class="nav-link px-3 py-2 text-sm font-medium hover:text-primary transition-colors">About</a>
                         <a href="#experience" class="nav-link px-3 py-2 text-sm font-medium hover:text-primary transition-colors">Experience</a>
                         <a href="#projects" class="nav-link px-3 py-2 text-sm font-medium hover:text-primary transition-colors">Projects</a>
+                        <a href="#leadership" class="nav-link px-3 py-2 text-sm font-medium hover:text-primary transition-colors">Leadership</a>
                         <a href="#contact" class="nav-link px-3 py-2 text-sm font-medium hover:text-primary transition-colors">Contact</a>
                     </div>
                 </div>
@@ -165,6 +174,7 @@
                 <a href="#about" class="block px-3 py-2 text-base font-medium hover:text-primary">About</a>
                 <a href="#experience" class="block px-3 py-2 text-base font-medium hover:text-primary">Experience</a>
                 <a href="#projects" class="block px-3 py-2 text-base font-medium hover:text-primary">Projects</a>
+                <a href="#leadership" class="block px-3 py-2 text-base font-medium hover:text-primary">Leadership</a>
                 <a href="#contact" class="block px-3 py-2 text-base font-medium hover:text-primary">Contact</a>
             </div>
         </div>
@@ -190,7 +200,7 @@
                 </h1>
 
                 <p class="text-lg text-gray-600 dark:text-gray-300 max-w-lg">
-                    Computer Science student at Youngstown State University with a passion for Data Analytics and Software Engineering. Transforming complex data into actionable insights.
+                    Computer Science student at Youngstown State University building data-driven software and analytics projects with Python, SQL, Excel, and C++.
                 </p>
 
                 <div class="flex flex-wrap gap-4">
@@ -201,13 +211,17 @@
                     <a href="#contact" class="px-8 py-3 border-2 border-gray-300 dark:border-gray-700 rounded-lg hover:border-primary hover:text-primary transition-all font-medium">
                         Get In Touch
                     </a>
+                    <a href="./Prahlad_Resume.pdf" download class="px-8 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:opacity-90 transition-all font-medium flex items-center gap-2">
+                        <i data-lucide="download" class="w-4 h-4"></i>
+                        <span>Resume</span>
+                    </a>
                 </div>
 
                 <div class="flex items-center space-x-6 pt-4">
-                    <a href="https://github.com" target="_blank" class="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
+                    <a href="https://github.com/prah-lad" target="_blank" rel="noopener noreferrer" class="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
                         <i data-lucide="github" class="w-6 h-6"></i>
                     </a>
-                    <a href="https://linkedin.com" target="_blank" class="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
+                    <a href="https://linkedin.com/in/prahladregmi" target="_blank" rel="noopener noreferrer" class="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
                         <i data-lucide="linkedin" class="w-6 h-6"></i>
                     </a>
                     <a href="mailto:pregmi02@student.ysu.edu" class="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors">
@@ -222,12 +236,12 @@
                         <div class="w-3 h-3 rounded-full bg-red-500"></div>
                         <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
                         <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                        <span class="ml-4 text-xs text-gray-400 font-mono">pra hl_ad.json</span>
+                        <span class="ml-4 text-xs text-gray-400 font-mono">prahlad.json</span>
                     </div>
                     <pre class="font-mono text-sm text-gray-300 overflow-x-auto">
 <span class="text-purple-400">{</span>
   <span class="text-blue-400">"name"</span><span class="text-gray-500">:</span> <span class="text-green-400">"Prahlad Puspa Regmi"</span><span class="text-gray-500">,</span>
-  <span class="text-blue-400">"role"</span><span class="text-gray-500">:</span> <span class="text-green-400">"CS Senior | Aspiring Data & Software Engineer"</span><span class="text-gray-500">,</span>
+  <span class="text-blue-400">"role"</span><span class="text-gray-500">:</span> <span class="text-green-400">"Data & Software Engineer"</span><span class="text-gray-500">,</span>
   <span class="text-blue-400">"location"</span><span class="text-gray-500">:</span> <span class="text-green-400">"Youngstown, OH"</span><span class="text-gray-500">,</span>
   <span class="text-blue-400">"education"</span><span class="text-gray-500">:</span> <span class="text-purple-400">{</span>
     <span class="text-blue-400">"university"</span><span class="text-gray-500">:</span> <span class="text-green-400">"Youngstown State University"</span><span class="text-gray-500">,</span>
@@ -283,64 +297,93 @@
                 <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="grid md:grid-cols-2 gap-12 items-start">
                 <div class="space-y-6">
                     <div class="terminal-text font-mono text-lg text-primary mb-4">whoami</div>
                     <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
                         I'm a Computer Science undergraduate at Youngstown State University with a minor in Mathematics, expected to graduate in December 2026. My academic journey has equipped me with strong foundations in data structures, algorithms, and statistical analysis.
                     </p>
                     <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-                        With professional experience as a Data Assistant at Classic Tech (ISP) in Nepal and as an Instructional Technology Assistant at YSU, I've developed practical skills in data analysis, technical support, and educational technology implementation.
+                        At Youngstown State University, I supported classroom and LMS tools, maintained digital course materials, and assisted faculty with technology workflows. At Classic Tech ISP, I organized operational records, validated data, and prepared Excel-based reporting to track service trends.
                     </p>
                     <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
                         I'm passionate about leveraging data to solve real-world problems and creating efficient software solutions. My leadership experience as President of the Hetauda Computer Club has honed my ability to manage teams and drive technical initiatives.
                     </p>
                     
                     <div class="pt-4">
-                        <a href="/mnt/kimi/upload/Prahlad_Resume.pdf" download class="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:opacity-90 transition-opacity font-medium">
+                        <a href="./Prahlad_Resume.pdf" download class="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:opacity-90 transition-opacity font-medium">
                             <i data-lucide="download" class="w-4 h-4"></i>
                             Download Resume
                         </a>
                     </div>
                 </div>
 
-                <div class="space-y-6">
-                   <h3 class="text-xl font-bold mb-6">Technical Skills</h3>
+                <div class="space-y-8">
+                    <!-- Languages -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+                            <i data-lucide="code-2" class="w-5 h-5 text-primary"></i>
+                            Languages
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Python</span>
+                            <span class="skill-badge px-4 py-2 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200 rounded-full text-sm font-medium">Java</span>
+                            <span class="skill-badge px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">C++</span>
+                            <span class="skill-badge px-4 py-2 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-200 rounded-full text-sm font-medium">JavaScript</span>
+                            <span class="skill-badge px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-200 rounded-full text-sm font-medium">SQL</span>
+                            <span class="skill-badge px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full text-sm font-medium">C#</span>
+                        </div>
+                    </div>
 
-<div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                    <!-- Data & Analytics -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+                            <i data-lucide="bar-chart-3" class="w-5 h-5 text-secondary"></i>
+                            Data & Analytics
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">Pandas</span>
+                            <span class="skill-badge px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">NumPy</span>
+                            <span class="skill-badge px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">Excel</span>
+                            <span class="skill-badge px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Data Cleaning</span>
+                            <span class="skill-badge px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-200 rounded-full text-sm font-medium">Tableau</span>
+                            <span class="skill-badge px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Reporting</span>
+                        </div>
+                    </div>
 
-  <!-- Skill Badge -->
-  <div class="glass px-4 py-3 rounded-lg flex items-center gap-2 hover:scale-105 transition">
-    <i data-lucide="code" class="w-5 h-5 text-primary"></i>
-    <span class="font-medium">Python</span>
-  </div>
+                    <!-- Tools -->
+                    <div>
+                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+                            <i data-lucide="wrench" class="w-5 h-5 text-purple-500"></i>
+                            Tools & Technologies
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full text-sm font-medium">Git/GitHub</span>
+                            <span class="skill-badge px-4 py-2 bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-200 rounded-full text-sm font-medium">Jupyter Notebook</span>
+                            <span class="skill-badge px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">VS Code</span>
+                            <span class="skill-badge px-4 py-2 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200 rounded-full text-sm font-medium">Oracle</span>
+                            <span class="skill-badge px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">LaTeX</span>
+                            <span class="skill-badge px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Tkinter</span>
+                            <span class="skill-badge px-4 py-2 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200 rounded-full text-sm font-medium">JavaFX</span>
+                        </div>
+                    </div>
 
-  <div class="glass px-4 py-3 rounded-lg flex items-center gap-2 hover:scale-105 transition">
-    <i data-lucide="database" class="w-5 h-5 text-primary"></i>
-    <span class="font-medium">SQL</span>
-  </div>
-
-  <div class="glass px-4 py-3 rounded-lg flex items-center gap-2 hover:scale-105 transition">
-    <i data-lucide="bar-chart-3" class="w-5 h-5 text-primary"></i>
-    <span class="font-medium">Data Analytics</span>
-  </div>
-
-  <div class="glass px-4 py-3 rounded-lg flex items-center gap-2 hover:scale-105 transition">
-    <i data-lucide="layers" class="w-5 h-5 text-primary"></i>
-    <span class="font-medium">Pandas / NumPy</span>
-  </div>
-
-  <div class="glass px-4 py-3 rounded-lg flex items-center gap-2 hover:scale-105 transition">
-    <i data-lucide="file-spreadsheet" class="w-5 h-5 text-primary"></i>
-    <span class="font-medium">Excel</span>
-  </div>
-
-  <div class="glass px-4 py-3 rounded-lg flex items-center gap-2 hover:scale-105 transition">
-    <i data-lucide="terminal" class="w-5 h-5 text-primary"></i>
-    <span class="font-medium">Java / C++</span>
-  </div>
-
-</div>
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="glass p-4 rounded-lg text-center">
+                            <i data-lucide="database" class="w-8 h-8 text-primary mx-auto mb-2"></i>
+                            <div class="font-bold text-2xl">2+</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
+                        </div>
+                        <div class="glass p-4 rounded-lg text-center">
+                            <i data-lucide="graduation-cap" class="w-8 h-8 text-secondary mx-auto mb-2"></i>
+                            <div class="font-bold text-2xl">3.56</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-400">Current GPA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Experience Section -->
     <section id="experience" class="py-20 bg-gray-50 dark:bg-darker">
@@ -448,8 +491,10 @@
                 <div class="project-card group relative bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300" data-category="software">
                     <div class="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center relative overflow-hidden">
                         <i data-lucide="utensils" class="w-16 h-16 text-white/50 group-hover:scale-110 transition-transform duration-500"></i>
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span class="text-white font-medium">View Project</span>
+                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">
+                            <a href="https://github.com/prah-lad/meal-planner" target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-full hover:bg-gray-200 transition-colors">
+                                <i data-lucide="github" class="w-6 h-6 text-gray-900"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="p-6">
@@ -457,7 +502,7 @@
                             <h3 class="text-xl font-bold">Meal Planner Software</h3>
                             <span class="text-xs font-mono text-gray-500 dark:text-gray-400">Fall 2025</span>
                         </div>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Python application with Tkinter GUI for meal recommendation based on ingredient matching algorithms.</p>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Built a Python Tkinter application that recommends meals based on available ingredients using rule-based matching, input validation, and JSON-based data storage.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 text-xs rounded">Python</span>
                             <span class="px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 text-xs rounded">Tkinter</span>
@@ -470,8 +515,10 @@
                 <div class="project-card group relative bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300" data-category="data">
                     <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center relative overflow-hidden">
                         <i data-lucide="trending-up" class="w-16 h-16 text-white/50 group-hover:scale-110 transition-transform duration-500"></i>
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span class="text-white font-medium">View Project</span>
+                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">
+                            <a href="https://github.com/prah-lad/stock-analyzer" target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-full hover:bg-gray-200 transition-colors">
+                                <i data-lucide="github" class="w-6 h-6 text-gray-900"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="p-6">
@@ -479,7 +526,7 @@
                             <h3 class="text-xl font-bold">Stock Market Analyzer</h3>
                             <span class="text-xs font-mono text-gray-500 dark:text-gray-400">Spring 2025</span>
                         </div>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">C++ application analyzing historical time-series data to identify trends and performance indicators.</p>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Built a C++ stock analysis tool that processes historical price data to identify directional trends using efficient data structures.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 text-xs rounded">C++</span>
                             <span class="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-200 text-xs rounded">Data Analysis</span>
@@ -491,8 +538,10 @@
                 <div class="project-card group relative bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300" data-category="software">
                     <div class="h-48 bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center relative overflow-hidden">
                         <i data-lucide="calculator" class="w-16 h-16 text-white/50 group-hover:scale-110 transition-transform duration-500"></i>
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span class="text-white font-medium">View Project</span>
+                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">
+                            <a href="https://github.com/prah-lad/fee-calculator" target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-full hover:bg-gray-200 transition-colors">
+                                <i data-lucide="github" class="w-6 h-6 text-gray-900"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="p-6">
@@ -500,7 +549,7 @@
                             <h3 class="text-xl font-bold">College Fee Calculator</h3>
                             <span class="text-xs font-mono text-gray-500 dark:text-gray-400">Spring 2025</span>
                         </div>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">JavaFX application for calculating tuition totals with validation and exception handling.</p>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">JavaFX application for calculating tuition totals with validation and exception handling. Structured to handle multiple enrollment scenarios.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-2 py-1 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200 text-xs rounded">Java</span>
                             <span class="px-2 py-1 bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-200 text-xs rounded">JavaFX</span>
@@ -512,8 +561,10 @@
                 <div class="project-card group relative bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300" data-category="software">
                     <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center relative overflow-hidden">
                         <i data-lucide="map" class="w-16 h-16 text-white/50 group-hover:scale-110 transition-transform duration-500"></i>
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span class="text-white font-medium">View Project</span>
+                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">
+                            <a href="https://github.com/prah-lad/path-finder" target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-full hover:bg-gray-200 transition-colors">
+                                <i data-lucide="github" class="w-6 h-6 text-gray-900"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="p-6">
@@ -521,7 +572,7 @@
                             <h3 class="text-xl font-bold">Path Finder</h3>
                             <span class="text-xs font-mono text-gray-500 dark:text-gray-400">Fall 2025</span>
                         </div>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Implementation of Dijkstra's and A* algorithms for optimal pathfinding in grid-based datasets.</p>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Implementation of Dijkstra's and A* algorithms for optimal pathfinding in grid-based datasets. Compares path efficiency and optimization.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 text-xs rounded">C++</span>
                             <span class="px-2 py-1 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-200 text-xs rounded">Algorithms</span>
@@ -533,8 +584,10 @@
                 <div class="project-card group relative bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300" data-category="data">
                     <div class="h-48 bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center relative overflow-hidden">
                         <i data-lucide="bar-chart-2" class="w-16 h-16 text-white/50 group-hover:scale-110 transition-transform duration-500"></i>
-                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span class="text-white font-medium">View Project</span>
+                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">
+                            <a href="https://github.com/prah-lad/isp-analytics" target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-full hover:bg-gray-200 transition-colors">
+                                <i data-lucide="github" class="w-6 h-6 text-gray-900"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="p-6">
@@ -542,7 +595,7 @@
                             <h3 class="text-xl font-bold">ISP Analytics Dashboard</h3>
                             <span class="text-xs font-mono text-gray-500 dark:text-gray-400">2020-2022</span>
                         </div>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Excel-based reporting system analyzing customer records and service tickets for Classic Tech.</p>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Excel-based reporting system analyzing customer records and service tickets for Classic Tech. Automated trend analysis and KPI tracking.</p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 text-xs rounded">Excel</span>
                             <span class="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 text-xs rounded">Data Cleaning</span>
@@ -554,8 +607,56 @@
         </div>
     </section>
 
+    <!-- Leadership Section -->
+    <section id="leadership" class="py-20 bg-gray-50 dark:bg-darker">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Leadership & Awards</h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+                            <i data-lucide="users" class="w-6 h-6 text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">President</h3>
+                            <p class="text-primary font-medium mb-2">Hetauda Computer Club</p>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">Led technical initiatives and organized programming workshops for students in Makawanpur, Nepal (Aug 2020 - Dec 2022).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass p-8 rounded-xl hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 rounded-full bg-yellow-100 dark:bg-yellow-900/30 flex items-center justify-center flex-shrink-0">
+                            <i data-lucide="award" class="w-6 h-6 text-yellow-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Dean's List</h3>
+                            <p class="text-primary font-medium mb-2">Youngstown State University</p>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">Recognized for academic excellence with a GPA of 3.56/4.0 in Computer Science and Mathematics coursework.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 glass p-8 rounded-xl">
+                <h3 class="text-xl font-bold mb-6 text-center">Professional Development</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <span class="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm">Kaggle Learn (Pandas, Data Cleaning)</span>
+                    <span class="px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-200 rounded-full text-sm">SQLBolt & Mode SQL</span>
+                    <span class="px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-200 rounded-full text-sm">Tableau Public Dashboards</span>
+                    <span class="px-4 py-2 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-200 rounded-full text-sm">Excel Advanced Functions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gray-50 dark:bg-darker relative overflow-hidden">
+    <section id="contact" class="py-20 bg-white dark:bg-dark relative overflow-hidden">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
@@ -603,79 +704,49 @@
                         <div class="pt-6">
                             <h4 class="font-medium mb-4">Follow Me</h4>
                             <div class="flex space-x-4">
-                                <a href="https://github.com" target="_blank" class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+                                <a href="https://github.com/prah-lad" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
                                     <i data-lucide="github" class="w-5 h-5"></i>
                                 </a>
-                                <a href="https://linkedin.com" target="_blank" class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+                                <a href="https://linkedin.com/in/prahladregmi" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
                                     <i data-lucide="linkedin" class="w-5 h-5"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
-                                    <i data-lucide="twitter" class="w-5 h-5"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <form
-  action="https://formspree.io/f/xdalozjq"
-  method="POST"
-  class="space-y-4"
->
-  <!-- Name -->
-  <div>
-    <label class="block text-sm font-medium mb-2">Name</label>
-    <input
-      type="text"
-      name="name"
-      required
-      class="w-full px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-      placeholder="Your name"
-    />
-  </div>
-
-  <!-- Email -->
-  <div>
-    <label class="block text-sm font-medium mb-2">Email</label>
-    <input
-      type="email"
-      name="email"
-      required
-      class="w-full px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-      placeholder="your@email.com"
-    />
-  </div>
-
-  <!-- Message -->
-  <div>
-    <label class="block text-sm font-medium mb-2">Message</label>
-    <textarea
-      rows="4"
-      name="message"
-      required
-      class="w-full px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"
-      placeholder="Your message..."
-    ></textarea>
-  </div>
-
-  <!-- Submit Button -->
-  <button
-    type="submit"
-    class="w-full py-3 bg-primary text-white rounded-lg hover:bg-blue-600 transition-all font-medium flex items-center justify-center gap-2 group"
-  >
-    <span>Send Message</span>
-    <i
-      data-lucide="send"
-      class="w-4 h-4 group-hover:translate-x-1 transition-transform"
-    ></i>
-  </button>
-</form>
+                    <!-- Formspree Contact Form - REPLACE WITH YOUR FORM ID -->
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+                        <input type="hidden" name="_subject" value="New contact from portfolio website">
+                        <input type="hidden" name="_next" value="https://prahladregmi.github.io/thanks.html">
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Name</label>
+                            <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="Your name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Message</label>
+                            <textarea name="message" rows="4" required class="w-full px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none" placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3 bg-primary text-white rounded-lg hover:bg-blue-600 transition-all font-medium flex items-center justify-center gap-2 group">
+                            <span>Send Message</span>
+                            <i data-lucide="send" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-white dark:bg-dark py-8 border-t border-gray-200 dark:border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
             <div class="flex items-center space-x-2 mb-4 md:mb-0">
                 <span class="font-mono font-bold gradient-text">&lt;Prahlad/&gt;</span>
-                <span class="text-gray-500 dark:text-gray-400 text-sm">© 2025</span>
+                <span class="text-gray-500 dark:text-gray-400 text-sm">© <span id="year"></span></span>
             </div>
             
             <div class="flex items-center space-x-6 text-sm text-gray-600 dark:text-gray-400">
@@ -694,6 +765,9 @@
     <script>
         // Initialize Lucide icons
         lucide.createIcons();
+
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
 
         // Theme toggle
         function toggleTheme() {
@@ -752,17 +826,6 @@
         // Start typewriter
         typeWriter();
 
-        // Skill bars animation on scroll
-        const observerOptions = {
-            threshold: 0.5,
-            rootMargin: "0px 0px -100px 0px"
-        };
-
-       
-        // Observe skills section
-        const skillsSection = document.querySelector('#about');
-        if (skillsSection) observer.observe(skillsSection);
-
         // Project filtering
         function filterProjects(category) {
             const buttons = document.querySelectorAll('.filter-btn');
@@ -795,13 +858,6 @@
             });
         }
 
-        // Form submission handler
-        function handleSubmit(e) {
-            e.preventDefault();
-            alert('Thanks for your message! This is a demo form - in production, this would send an email.');
-            e.target.reset();
-        }
-
         // Smooth scroll for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -831,7 +887,7 @@
         // Three.js Background Animation
         const initThreeJS = () => {
             const container = document.getElementById('canvas-container');
-            if (!container || window.matchMedia('(pointer: coarse)').matches) return; // Skip on mobile
+            if (!container || window.matchMedia('(pointer: coarse)').matches) return;
 
             const scene = new THREE.Scene();
             const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -840,7 +896,6 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
             container.appendChild(renderer.domElement);
 
-            // Create particles
             const geometry = new THREE.BufferGeometry();
             const particlesCount = 100;
             const posArray = new Float32Array(particlesCount * 3);
@@ -863,7 +918,6 @@
 
             camera.position.z = 3;
 
-            // Mouse interaction
             let mouseX = 0;
             let mouseY = 0;
 
@@ -874,20 +928,15 @@
 
             const animate = () => {
                 requestAnimationFrame(animate);
-
                 particlesMesh.rotation.y += 0.001;
                 particlesMesh.rotation.x += 0.001;
-
-                // Gentle follow mouse
                 particlesMesh.rotation.x += mouseY * 0.0005;
                 particlesMesh.rotation.y += mouseX * 0.0005;
-
                 renderer.render(scene, camera);
             };
 
             animate();
 
-            // Handle resize
             window.addEventListener('resize', () => {
                 camera.aspect = window.innerWidth / window.innerHeight;
                 camera.updateProjectionMatrix();
@@ -895,7 +944,6 @@
             });
         };
 
-        // Initialize Three.js when page loads
         window.addEventListener('load', initThreeJS);
     </script>
 </body>
